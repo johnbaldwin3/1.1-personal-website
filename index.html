@@ -3,24 +3,42 @@
   <head>
     <meta charset="utf-8">
     <title>john's wildly ugly personal site</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>John's Horrendous Website Creation</h1>
-    <h2>A site of horrific HTML coding</h2>
+    <h1 class="header">John's Horrendous Website Creation</h1>
+    <h2 class="subheader">A site of <span class="horrible">horrific</span> HTML coding</h2>
     <hr/>
-    <ul>
-      <li><a href="about.html">About Me</a></li>
-      <li><a href="http://www.tigernet.com">My Favorite Website (Go Tigers - Tigernet.com)</a></li>
-      <li><a href="https://tiystudents.slack.com/messages/gvl_jan2017_frontend/details/">Cool Stuff to look at</a></li>
+    <ul class="navbar">
+      <li class="navlink selected"><a href="index.html">Home</a></li>
+      <li class="navlink"><a href="about.html">About Me</a></li>
+      <li class="navlink"><a href="http://www.tigernet.com">My Favorite Website (Go Tigers - Tigernet.com)</a></li>
+      <li class="navlink"><a href="https://tiystudents.slack.com/messages/gvl_jan2017_frontend/details/">Cool Stuff to look at</a></li>
     </ul>
 
-    <h3>Things I Like</h3>
-    <ol>
+    <h3 class="blinky">Things I Like so much so that the title BLINKS:</h3>
+    <ol class="things">
       <li>My Family</li>
       <li>Clemson Sports</li>
       <li>Chicago Sports</li>
       <li>Nature</li>
+      <li>Artwork</li>
     </ol>
 
+    <h4 class="artworkstuff">Here's Some Artwork of Mine:</h4>
+    <ul class="gallery">
+      <li class="gallerypics"><a href="img/acrylicmountain.jpg"><img src="img/acrylicmountain.jpg" alt="Acrylic Painting of Mountain Sunset"></a></li>
+      <li class="gallerypics"><a href="img/bearandbeansNYC.jpg"><img src="img/bearandbeansNYC.jpg" alt="Adobe Photoshop of My Kids in NYC Time's Square"></a></li>
+      <li class="gallerypics"><a href="img/TigerOil.jpg"><img src="img/TigerOil.jpg" alt="Adobe Photoshop of Tiger Image"></a></li>
+    </ul>
+    <div class="example1">
+      <p>Under Construction - Hard Hat Required!</p>
+    </div>
+    <footer>
+      <img src="http://mphokuli.co.za/under.gif" alt="under construction animated gif">
+    </footer>
+      <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+      <script src="app.js" type="text/javascript" charset="utf-8"></script>
   </body>
 </html>
