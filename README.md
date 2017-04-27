@@ -1,6 +1,6 @@
 # 1.1-personal-website
 
-Week 4
+Week 1
 ------
 Website: https://johnbaldwin3.github.io/1.1-personal-website/
 ------
